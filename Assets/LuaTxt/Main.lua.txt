@@ -1,0 +1,10 @@
+
+require("InitClass")
+require("Manager")
+function Start()
+    Manager:Init()
+end
+function Update()
+    Manager:Update()
+end
+
